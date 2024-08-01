@@ -1,14 +1,132 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Aster.kz</title>
-	<link rel="stylesheet" href="./css/normalize.css">
-	<link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-	
-	<script src='./js/main.js'></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Aster.kz</title>
+		<link
+			rel="shortcut icon"
+			href="./img/favicon/faviconV2.png"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="./css/normalize.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<header class="header" id="header">
+			<div class="container">
+				<div class="header__top">
+					<div class="logo">
+						<div class="burger__menu" id="burgerMenu">
+							<span class="burger__menu-element"></span>
+							<span class="burger__menu-element"></span
+							><span class="burger__menu-element"></span>
+						</div>
+						<img src="./img/logo.png" alt="Логотип aster.kz" />
+					</div>
+					<div class="header__controls">
+						<div class="header__lang">
+							<button class="lang">
+								Рус
+								<svg
+									width="16"
+									height="16"
+									viewBox="0 0 16 16"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<g clip-path="url(#clip0_130_4)">
+										<path
+											d="M4.94 5.72656L8 8.7799L11.06 5.72656L12 6.66656L8 10.6666L4 6.66656L4.94 5.72656Z"
+											fill="#0066CC"
+										/>
+									</g>
+									<defs>
+										<clipPath id="clip0_130_4">
+											<rect width="16" height="16" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</button>
+							<div class="lang-content">
+								<a href="#">Каз</a>
+								<a href="#">Анг</a>
+							</div>
+						</div>
+						<div class="header__favorite">
+							<img src="./img/favorite.png" alt="Избранные объявления" />
+						</div>
+						<a href="" class="header__ad">Подать объявление</a>
+						<a href="" class="header__auth">Войти</a>
+					</div>
+				</div>
+			</div>
+			<nav class="nav">
+				<div class="container">
+					<ul class="nav__list">
+						<li class="nav__list-item">
+							<a href="" class="nav__list-link">Найти авто</a>
+						</li>
+						<li class="nav__list-item">
+							<a href="" class="nav__list-link">Новые авто</a>
+						</li>
+						<li class="nav__list-item">
+							<a href="" class="nav__list-link">Автокредитование</a>
+						</li>
+						<li class="nav__list-item">
+							<a href="" class="nav__list-link">Онлайн оценка</a>
+						</li>
+						<li class="nav__list-item">
+							<a href="" class="nav__list-link">Выкуп</a>
+						</li>
+						<li class="nav__list-item">
+							<a href="" class="nav__list-link">Aster Check</a>
+						</li>
+						<li class="nav__list-item">
+							<a href="" class="nav__list-link">Запчасти</a>
+						</li>
+						<li class="nav__list-item">
+							<a href="" class="nav__list-link">Журнал</a>
+						</li>
+						<li class="nav__list-item">
+							<a href="" class="nav__list-link">Шины</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div class="dropdown-menu" id="dropdownMenu">
+				<ul>
+					<li><a href="#">Дополнительный пункт 1</a></li>
+					<li><a href="#">Дополнительный пункт 2</a></li>
+					<li><a href="#">Дополнительный пункт 3</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Дополнительный пункт 1</a></li>
+					<li><a href="#">Дополнительный пункт 2</a></li>
+					<li><a href="#">Дополнительный пункт 3</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Дополнительный пункт 1</a></li>
+					<li><a href="#">Дополнительный пункт 2</a></li>
+					<li><a href="#">Дополнительный пункт 3</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Дополнительный пункт 1</a></li>
+					<li><a href="#">Дополнительный пункт 2</a></li>
+					<li><a href="#">Дополнительный пункт 3</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Дополнительный пункт 1</a></li>
+					<li><a href="#">Дополнительный пункт 2</a></li>
+					<li><a href="#">Дополнительный пункт 3</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Дополнительный пункт 1</a></li>
+					<li><a href="#">Дополнительный пункт 2</a></li>
+					<li><a href="#">Дополнительный пункт 3</a></li>
+				</ul>
+			</div>
+		</header>
+		<script src="./js/burger.js"></script>
+	</body>
 </html>
