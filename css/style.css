@@ -418,6 +418,28 @@ section.payment {
 	transform: rotate(0deg);
 }
 
+.subscribe {
+	padding: 50px 0;
+}
+
+.subs {
+	max-width: 768px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: white;
+	color: black;
+}
+.error {
+	display: none;
+	color: red;
+}
+.error.show {
+	display: block;
+}
+
 .footer {
 	background-color: #0066cc;
 	padding: 40px 0;
@@ -438,8 +460,6 @@ section.payment {
 	align-items: center;
 	gap: 25px 0;
 }
-
-
 
 .email {
 	color: rgb(255, 255, 255);
@@ -522,7 +542,7 @@ section.payment {
 	letter-spacing: 0%;
 	text-align: left;
 	text-decoration: none;
-	transition: all ease-in-out .8s;
+	transition: all ease-in-out 0.8s;
 }
 
 .footer__menu {
@@ -583,6 +603,6 @@ section.payment {
 	}
 
 	.footer__item ul a:hover {
-		opacity: .6;
+		opacity: 0.6;
 	}
 }
