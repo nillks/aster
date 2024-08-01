@@ -230,7 +230,7 @@ section.payment {
 	line-height: 140%;
 	letter-spacing: 0%;
 	border-radius: 40px;
-	width: 415px;
+	max-width: 415px;
 	margin: 0 auto;
 	padding: 8px 20px;
 	background: rgb(255, 255, 255);
@@ -714,7 +714,7 @@ section.payment {
 		position: fixed;
 		top: 0;
 		left: 0;
-		width: 100%;
+		width: 100vw;
 		height: 100%;
 		background: rgba(0, 0, 0, 0.9);
 		z-index: 1000;
